@@ -1,41 +1,20 @@
 {
-  "name": "hello_rails_react",
-  "version": "1.0.0",
-  "description": "This README would normally document whatever steps are necessary to get the application up and running.",
-  "main": "index.js",
-  "directories": {
-    "lib": "lib",
-    "test": "test"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/tresorsawasawa/hello_rails_react.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/tresorsawasawa/hello_rails_react/issues"
-  },
-  "homepage": "https://github.com/tresorsawasawa/hello_rails_react#readme",
-  "devDependencies": {
-    "stylelint": "^13.13.1",
-    "stylelint-config-standard": "^21.0.0",
-    "stylelint-csstree-validator": "^1.9.0",
-    "stylelint-scss": "^3.21.0",
-    "webpack-dev-server": "^4.9.2"
-  },
   "dependencies": {
     "@babel/preset-react": "^7.17.12",
     "@rails/webpacker": "5.4.3",
     "babel-plugin-transform-react-remove-prop-types": "^0.4.24",
     "prop-types": "^15.8.1",
     "react": "^18.1.0",
+    "react_ujs": "^2.6.2",
     "react-dom": "^18.1.0",
     "webpack": "^4.46.0",
     "webpack-cli": "^3.3.12"
+  },
+  "devDependencies": {
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^21.0.0",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "^3.21.0",
+    "webpack-dev-server": "^3"
   }
 }
