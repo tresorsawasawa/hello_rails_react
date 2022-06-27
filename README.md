@@ -4,7 +4,7 @@
 
 > The "Hello world App With rails-react gem" is a web application that return a random greeting by clicking on the button generator.
 
-## Built With
+## Built With:
 
 - Ruby on Rails
 - Postgres
